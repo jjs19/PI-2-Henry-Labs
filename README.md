@@ -50,15 +50,17 @@ Se seleccionaron 10 Monedas como lo piden las consignas del trabajo utilizando e
 
 En el archivo llamado "PI-2 Henry JJS.ipynb" encontrara el proceso que realicé para extraer los datos desde la API mencionada anteriormente, el proceso de ETL y el EDA. explicando paso a paso lo que fuí haciendo junto con las conclusiones respectivas. 
 
+## Dashboard de Power BI 
 
+En esta parte del proyecto, la idea es definir KPIs y plasmarlos en el dashboard siendo éste interactivo.
 
+En este Dashboard se podrá ver en la primer slide la relacion del Precio en USD y el 24 Hs Volumes de las distintas monedas comparadas con una moneda fija, en este caso el Bitcoin, que es la moneda más reconocida actualemtnte y desde que se inició el mundo de las Criptomonedas.
+Aquí llegamos a la conclusión de que las monedas a lo largo del tiempo siguen cierta tendencia similar al BTC, exceptuando las dos ligadas al Dolar que elegí dentro de las 10 (USD Coin y Tether), estas dos sigue una cotizacion similar al dolar por lo que no flutua demasiado su precio.
 
+Tambien se puede observar el Precio Máximo de la moneda que estemos seleccionando para comparar con Bitcoin, junto con el precio Actual para poder ver asi el potencial al que llegó la moneda en su pico máximo y como se encuentra en la actualidad (tomamos como actualidad: 30/6/2023 ya que descargué los datos de CoinGecko hasta esa fecha).
 
-
-
-
-
-
+Por otro lado tambien mostramos una tabla con el % de variación de preciosd dia a dia. Lo cual nos sirve para ver en que momentos hubo mas variacion porcentual sea esta posotiva o negativa
+De este KPIs podemos resaltar que en el año 2020 fue el año que mas aumento tuvo el mundo de las criptomonedas.
 
 
 ## Recomendaciones finales 
